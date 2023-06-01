@@ -8,6 +8,7 @@ body{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     overscroll-behavior: none;
+    /* padding: 0 5vw; */
 }
 
 body::-webkit-scrollbar {
@@ -52,8 +53,8 @@ body::-webkit-scrollbar {
     line-height: 22px;
 }
 .navbar{
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 .mesg{
     display: flex;
@@ -66,7 +67,122 @@ body::-webkit-scrollbar {
     text-justify: inter-word;
 
 }
-.msg p{
+.row p{
     text-align: justify;
     text-justify: inter-word;
 }
+
+.flex{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    gap:2vw;
+    flex-wrap: wrap;
+
+}
+.c-s{
+    border: none;
+}
+.row{
+    /*grid-template-columns: repeat(auto-fill, 186px);*/
+    place-content: end center;
+    gap: 2vw;
+
+}
+.card img{
+    padding: 5px;
+    border-radius: 3%;
+}
+.c-b{
+    border-style: none;
+    background: #0096a4;
+    border-radius: 5;
+    /*max-width: 16vw;*/
+
+}
+.card-body h5{
+    color: white;
+}
+.card-body p{
+    color: white;
+}
+.alert-box{
+    border-radius: 0;
+    border: none;
+    background-color: #0096a4;
+}
+.alert-box marquee{
+    color: white;
+}
+.c-body{
+    text-align: justify;
+    padding: 20px;
+    
+}
+.navbar-toggler{
+    border: none;
+
+}
+.navbar-toggler-icon{
+    max-width: 5vw;
+
+}
+.btn-w{
+    color: #0096a4;
+    background-color: white;
+    border: none;
+}
+.n-body{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1vw;
+flex-wrap: auto;
+}
+.n-head{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0096a4;
+    gap:5px
+}
+.modal-body, .modal-header, .modal-footer{
+    border: none;
+}
+.sign-form{
+    border: none;
+}
+.mdf{
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.ddm{
+    border: none;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.774);
+    transition: all 0.2s linear;
+}
+.ddm:hover{
+    background-color: white;
+}
+.nvb{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    width: 100vw;
+}
+
+
+
+
+
+/* <- Gallery styles -> */
